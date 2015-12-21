@@ -22,8 +22,7 @@ class SBS():
         dim = X_train.shape[1]
         self.indices_ = tuple(range(dim))
         self.subsets_ = [self.indices_]
-        score = self._calc_score(X_train, y_train, 
-                                 X_test, y_test, self.indices_)
+        score = self._calc_score(X_train, y_train, X_test, y_test, self.indices_)
         self.scores_ = [score]
 
         while dim > self.k_features:
@@ -31,8 +30,7 @@ class SBS():
             subsets = []
 
             for p in combinations(self.indices_, r = dim-1):
-                score = self._calc_score(X_train, y_train, 
-                                         X_test, y_test, p)
+                score = self._calc_score(X_train, y_train, X_test, y_test, p)
                 scores.append(score)
                 subsets.append(p)
 
@@ -54,3 +52,5 @@ class SBS():
         y_pred = self.estimator.predict(X_test[:, indices])
         score = self.scoring(y_test, y_pred)
         return score
+
+
