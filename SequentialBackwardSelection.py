@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score
 
+
 class SBS():
     
     def __init__(self, estimator, k_features, scoring=accuracy_score,
