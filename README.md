@@ -17,3 +17,6 @@ Perceptron
 
 Decision Boundry Plotting
 - `2DTreeDecisionBoundry.ipynb`
+
+Sequential Backward Selection
+- `SequentialBackwardSelection.py`
