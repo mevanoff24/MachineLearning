@@ -4,6 +4,7 @@ Repository for Machine Learning Implementations
 ### Included Now
 
 Gradient Descent
+- Custom Gradient Descent Algorithm utilizing numpy
 - `GradientDescent.ipynb`
 
 Voting Classifier Class
