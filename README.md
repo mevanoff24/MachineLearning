@@ -21,3 +21,6 @@ Decision Boundry Plotting
 
 Sequential Backward Selection
 - `SequentialBackwardSelection.py`
+
+Kernel PCA
+- `kernelPCA.py`
