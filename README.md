@@ -24,3 +24,6 @@ Sequential Backward Selection
 
 Kernel PCA
 - `kernelPCA.py`
+
+Bayesian Regression with PYMC
+- `BayesianRegression.ipynb`
