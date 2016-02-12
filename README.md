@@ -25,5 +25,6 @@ Sequential Backward Selection
 Kernel PCA
 - `kernelPCA.py`
 
-Bayesian Regression with PYMC
+Bayesian Regression 
+- PYMC to estimate the coeficients
 - `BayesianRegression.ipynb`
