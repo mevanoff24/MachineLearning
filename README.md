@@ -4,6 +4,7 @@ Repository for Machine Learning Implementations
 ### Included Now
 
 Gradient Descent
+- Custom Gradient Descent Algorithm utilizing numpy
 - `GradientDescent.ipynb`
 
 Voting Classifier Class
@@ -17,3 +18,13 @@ Perceptron
 
 Decision Boundry Plotting
 - `2DTreeDecisionBoundry.ipynb`
+
+Sequential Backward Selection
+- `SequentialBackwardSelection.py`
+
+Kernel PCA
+- `kernelPCA.py`
+
+Bayesian Regression 
+- PYMC to estimate the coeficients
+- `BayesianRegression.ipynb`
