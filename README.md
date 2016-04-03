@@ -13,7 +13,7 @@ Voting Classifier Class
 Gradient Descent / OLS Custom Class
 - `GDLinearRegression.ipynb`
 
-Perceptron
+Perceptron Custom Implementation
 - `Perceptron.ipynb`
 
 Decision Boundry Plotting
